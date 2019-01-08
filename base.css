@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-size: 100%;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent
+}
+
+
+/* input,text,textraea,select,默认样式 */
+
+*,
+input,
+textarea,
+select {
+    color: #000;
+    word-wrap: normal;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+
+/* float浮动属性 */
+
+.fn-left {
+    float: left;
+}
+
+.fn-right {
+    float: right;
+}
+
+.fn-clear:after {
+    clear: both;
+    content: " ";
+    height: 0;
+    display: block;
+    font-size: 0;
+    visibility: visible;
+}
+
+
+/* input,button,select,textarea,标签默认 */
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+textarea {
+    overflow-y: visible;
+    resize: none;
+}
+
+
+/* input,button,select,textarea,标签默认---------------END */
+
+html {
+    background-color: #fff;
+}
+
+
+/* 媒体查询 */
+
+@media screen and (max-width:400px) {
+    body,
+    html {
+        font-size: 78.1% !important;
+    }
+}
+
+@media screen and (min-width:400px) {
+    body,
+    html {
+        font-size: 78.1% !important;
+    }
+}
+
+@media screen and (min-width:440px) {
+    body,
+    html {
+        font-size: 85.8% !important;
+    }
+}
+
+@media screen and (min-width:460px) {
+    body,
+    html {
+        font-size: 89.9% !important;
+    }
+}
+
+@media screen and (min-width:480px) {
+    body,
+    html {
+        font-size: 93.8% !important;
+    }
+}
+
+@media screen and (min-width:540px) {
+    body,
+    html {
+        font-size: 105.5% !important;
+    }
+}
+
+@media screen and (min-width:560px) {
+    body,
+    html {
+        font-size: 109.4% !important;
+    }
+}
+
+@media screen and (min-width:640px) {
+    body,
+    html {
+        font-size: 125% !important;
+    }
+}
