@@ -35,7 +35,7 @@ textarea,
 select {
     color: #000;
     word-wrap: normal;
-    font-family: "Microsoft YaHei", sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 input[type="search"] {
@@ -88,6 +88,12 @@ textarea {
 
 html {
     background-color: #fff;
+}
+
+html,
+body,
+#app {
+    height: 100%
 }
 
 
